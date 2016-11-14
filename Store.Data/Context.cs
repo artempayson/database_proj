@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Store.Data
 {
-    class Context : DbContext
+    public class Context : DbContext
     {
         public DbSet<Good> Goods { get; set; }
 

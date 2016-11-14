@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Store.Data
 {
-    class CartItem
+    public class CartItem
     {
         public int ID { get; set; }
         public Good Good { get; set; }
